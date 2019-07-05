@@ -28,7 +28,7 @@ b2.prototype = {
         <sys_updated_on>2019-07-05 15:01:13</sys_updated_on>
     </sys_script_include>
 <sys_update_version action="INSERT_OR_UPDATE">
-        <action>INSERT_OR_UPDATE</action>
+        <action>DELETE</action>
         <application display_value="nyprb7">52dda34477223300ec23b5b268106165</application>
         <file_path/>
         <instance_id>newyork8080</instance_id>

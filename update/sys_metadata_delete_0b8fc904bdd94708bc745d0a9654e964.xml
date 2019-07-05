@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update action="DELETE" table="sys_script_include">
-    <sys_script_include action="DELETE">
+    <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
         <api_name>sn_nyprb7.b1</api_name>
@@ -27,36 +27,59 @@ b1.prototype = {
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-07-05 15:01:04</sys_updated_on>
     </sys_script_include>
-    <sys_update_version action="INSERT_OR_UPDATE">
+<sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="nyprb7">52dda34477223300ec23b5b268106165</application>
         <file_path/>
         <instance_id>newyork8080</instance_id>
         <instance_name>glide_db_dump</instance_name>
         <name>sys_script_include_6bd133c077223300ec23b5b268106155</name>
-        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="DELETE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_nyprb7.b1&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;b1&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var b1 = Class.create();
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;sn_nyprb7.b1&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;b1&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var b1 = Class.create();
 b1.prototype = {
     initialize: function() {
     },
 
     type: 'b1'
-};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-07-05 15:01:04&lt;/sys_created_on&gt;&lt;sys_id&gt;6bd133c077223300ec23b5b268106155&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;b1&lt;/sys_name&gt;&lt;sys_package display_value="nyprb7" source="sn_nyprb7"&gt;52dda34477223300ec23b5b268106165&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="nyprb7"&gt;52dda34477223300ec23b5b268106165&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_6bd133c077223300ec23b5b268106155&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-07-05 15:01:04&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
-        <payload_hash>804184791</payload_hash>
+};]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-07-05 15:01:04&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6bd133c077223300ec23b5b268106155&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;b1&lt;/sys_name&gt;
+        &lt;sys_package display_value="nyprb7" source="sn_nyprb7"&gt;52dda34477223300ec23b5b268106165&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="nyprb7"&gt;52dda34477223300ec23b5b268106165&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_6bd133c077223300ec23b5b268106155&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-07-05 15:01:04&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-637121479</payload_hash>
         <record_name>b1</record_name>
         <reverted_from/>
-        <source>ea34f30877223300ec23b5b2681061dd</source>
-        <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-07-05 15:11:19</sys_created_on>
-        <sys_id>2234f30877223300ec23b5b2681061e0</sys_id>
+        <sys_created_on>2019-07-05 15:11:11</sys_created_on>
+        <sys_id>ac3477c477223300ec23b5b268106136</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>16bc2b0901c0000001</sys_recorded_at>
+        <sys_recorded_at>16bc2b06f690000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-05 15:11:19</sys_updated_on>
+        <sys_updated_on>2019-07-05 15:11:11</sys_updated_on>
         <type>Script Include</type>
-        <update_guid>2a34f308f522330049d8d68aff501ddf</update_guid>
-        <update_guid_history>2a34f308f522330049d8d68aff501ddf:804184791,d524f3c4eb22330042a5fa0e1ddb9ca6:804184791,8702730406223300f2cda05e2f70281d:804184791,a8e13bc0d8223300f080e36b96c980ba:381582283</update_guid_history>
+        <update_guid>6c3477c49a223300a2fe9cf583ef0a36</update_guid>
+        <update_guid_history>d524f3c4eb22330042a5fa0e1ddb9ca6:804184791,8702730406223300f2cda05e2f70281d:804184791,a8e13bc0d8223300f080e36b96c980ba:381582283</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
@@ -73,7 +96,7 @@ b1.prototype = {
         <sys_policy>read</sys_policy>
         <sys_scope display_value="nyprb7">52dda34477223300ec23b5b268106165</sys_scope>
         <sys_scope_delete display_value="">2d44ba2e9be2401b89bad9926013d749</sys_scope_delete>
-        <sys_update_name>sys_script_include_6bd133c077223300ec23b5b268106155</sys_update_name>
+        <sys_update_name>sys_script_include_0b8fc904bdd94708bc745d0a9654e964</sys_update_name>
         <sys_update_version display_value="sys_script_include_6bd133c077223300ec23b5b268106155">ac3477c477223300ec23b5b268106136</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-07-05 15:11:19</sys_updated_on>
